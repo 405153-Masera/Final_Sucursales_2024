@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "Backend.Controllers.FinalController",
+    "Method": "GetAllConfiguraciones",
+    "RelativePath": "api/Final/configuraciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.FinalController",
+    "Method": "GetSucursalAsync",
+    "RelativePath": "api/Final/sucursal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.FinalController",
+    "Method": "PostSucursal",
+    "RelativePath": "api/Final/sucursal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sucursal",
+        "Type": "Backend.Dtos.SucursalDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.FinalController",
+    "Method": "PutSucursal",
+    "RelativePath": "api/Final/sucursal",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sucursal",
+        "Type": "Backend.Dtos.SucursalDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

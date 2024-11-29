@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ronim\\OneDrive\\Escritorio\\UTN Programacion\\Tercer Cuatrimestre\\Programacion 3\\Trabajos para Final\\Final_Sucursales_2024\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{409B1683-6088-4EAD-A02A-9A86D4863076}|Backend\\Backend.csproj|c:\\users\\ronim\\onedrive\\escritorio\\utn programacion\\tercer cuatrimestre\\programacion 3\\trabajos para final\\final_sucursales_2024\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{409B1683-6088-4EAD-A02A-9A86D4863076}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409B1683-6088-4EAD-A02A-9A86D4863076}|Backend\\Backend.csproj|c:\\users\\ronim\\onedrive\\escritorio\\utn programacion\\tercer cuatrimestre\\programacion 3\\trabajos para final\\final_sucursales_2024\\backend\\backend\\validators\\sucursalvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{409B1683-6088-4EAD-A02A-9A86D4863076}|Backend\\Backend.csproj|solutionrelative:backend\\validators\\sucursalvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409B1683-6088-4EAD-A02A-9A86D4863076}|Backend\\Backend.csproj|c:\\users\\ronim\\onedrive\\escritorio\\utn programacion\\tercer cuatrimestre\\programacion 3\\trabajos para final\\final_sucursales_2024\\backend\\backend\\models\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{409B1683-6088-4EAD-A02A-9A86D4863076}|Backend\\Backend.csproj|solutionrelative:backend\\models\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409B1683-6088-4EAD-A02A-9A86D4863076}|Backend\\Backend.csproj|c:\\users\\ronim\\onedrive\\escritorio\\utn programacion\\tercer cuatrimestre\\programacion 3\\trabajos para final\\final_sucursales_2024\\backend\\backend\\dtos\\sucursaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{409B1683-6088-4EAD-A02A-9A86D4863076}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\sucursaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409B1683-6088-4EAD-A02A-9A86D4863076}|Backend\\Backend.csproj|c:\\users\\ronim\\onedrive\\escritorio\\utn programacion\\tercer cuatrimestre\\programacion 3\\trabajos para final\\final_sucursales_2024\\backend\\backend\\repositories\\impl\\sucursalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{409B1683-6088-4EAD-A02A-9A86D4863076}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\impl\\sucursalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409B1683-6088-4EAD-A02A-9A86D4863076}|Backend\\Backend.csproj|c:\\users\\ronim\\onedrive\\escritorio\\utn programacion\\tercer cuatrimestre\\programacion 3\\trabajos para final\\final_sucursales_2024\\backend\\backend\\services\\impl\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{409B1683-6088-4EAD-A02A-9A86D4863076}|Backend\\Backend.csproj|solutionrelative:backend\\services\\impl\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SucursalValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ronim\\OneDrive\\Escritorio\\UTN Programacion\\Tercer Cuatrimestre\\Programacion 3\\Trabajos para Final\\Final_Sucursales_2024\\Backend\\Backend\\Validators\\SucursalValidator.cs",
+              "RelativeDocumentMoniker": "Backend\\Validators\\SucursalValidator.cs",
+              "ToolTip": "C:\\Users\\ronim\\OneDrive\\Escritorio\\UTN Programacion\\Tercer Cuatrimestre\\Programacion 3\\Trabajos para Final\\Final_Sucursales_2024\\Backend\\Backend\\Validators\\SucursalValidator.cs",
+              "RelativeToolTip": "Backend\\Validators\\SucursalValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T11:17:11.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sucursal.cs",
+              "DocumentMoniker": "C:\\Users\\ronim\\OneDrive\\Escritorio\\UTN Programacion\\Tercer Cuatrimestre\\Programacion 3\\Trabajos para Final\\Final_Sucursales_2024\\Backend\\Backend\\Models\\Sucursal.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Sucursal.cs",
+              "ToolTip": "C:\\Users\\ronim\\OneDrive\\Escritorio\\UTN Programacion\\Tercer Cuatrimestre\\Programacion 3\\Trabajos para Final\\Final_Sucursales_2024\\Backend\\Backend\\Models\\Sucursal.cs",
+              "RelativeToolTip": "Backend\\Models\\Sucursal.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T11:16:13.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SucursalDto.cs",
+              "DocumentMoniker": "C:\\Users\\ronim\\OneDrive\\Escritorio\\UTN Programacion\\Tercer Cuatrimestre\\Programacion 3\\Trabajos para Final\\Final_Sucursales_2024\\Backend\\Backend\\Dtos\\SucursalDto.cs",
+              "RelativeDocumentMoniker": "Backend\\Dtos\\SucursalDto.cs",
+              "ToolTip": "C:\\Users\\ronim\\OneDrive\\Escritorio\\UTN Programacion\\Tercer Cuatrimestre\\Programacion 3\\Trabajos para Final\\Final_Sucursales_2024\\Backend\\Backend\\Dtos\\SucursalDto.cs",
+              "RelativeToolTip": "Backend\\Dtos\\SucursalDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T11:16:02.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SucursalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ronim\\OneDrive\\Escritorio\\UTN Programacion\\Tercer Cuatrimestre\\Programacion 3\\Trabajos para Final\\Final_Sucursales_2024\\Backend\\Backend\\Repositories\\Impl\\SucursalRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Repositories\\Impl\\SucursalRepository.cs",
+              "ToolTip": "C:\\Users\\ronim\\OneDrive\\Escritorio\\UTN Programacion\\Tercer Cuatrimestre\\Programacion 3\\Trabajos para Final\\Final_Sucursales_2024\\Backend\\Backend\\Repositories\\Impl\\SucursalRepository.cs",
+              "RelativeToolTip": "Backend\\Repositories\\Impl\\SucursalRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T11:14:37.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ronim\\OneDrive\\Escritorio\\UTN Programacion\\Tercer Cuatrimestre\\Programacion 3\\Trabajos para Final\\Final_Sucursales_2024\\Backend\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\ronim\\OneDrive\\Escritorio\\UTN Programacion\\Tercer Cuatrimestre\\Programacion 3\\Trabajos para Final\\Final_Sucursales_2024\\Backend\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T11:02:36.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\ronim\\OneDrive\\Escritorio\\UTN Programacion\\Tercer Cuatrimestre\\Programacion 3\\Trabajos para Final\\Final_Sucursales_2024\\Backend\\Backend\\Services\\Impl\\ApiService.cs",
+              "RelativeDocumentMoniker": "Backend\\Services\\Impl\\ApiService.cs",
+              "ToolTip": "C:\\Users\\ronim\\OneDrive\\Escritorio\\UTN Programacion\\Tercer Cuatrimestre\\Programacion 3\\Trabajos para Final\\Final_Sucursales_2024\\Backend\\Backend\\Services\\Impl\\ApiService.cs",
+              "RelativeToolTip": "Backend\\Services\\Impl\\ApiService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwD0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T11:00:33.836Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
