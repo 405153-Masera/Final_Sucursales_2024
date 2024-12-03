@@ -29,9 +29,9 @@ namespace Backend.Repositories.Impl
             return sucursalPost.Entity;
         }
 
-        public async Task<Sucursal?> PutSucursal(Sucursal sucursal)
+        public async Task<Sucursal?> PutSucursal(Guid id, Sucursal sucursal)
         {
-            var sucursalPut = await _context.Sucursales.FindAsync(sucursal.Id);
+            var sucursalPut = await _context.Sucursales.FindAsync(id);
 
             if (sucursalPut == null) return null;
 
@@ -42,6 +42,8 @@ namespace Backend.Repositories.Impl
             sucursalPut.ApellidoTitular = sucursal.ApellidoTitular;
             //sucursalPut.Tipo = sucursal.Tipo;
             //sucursalPut.Provincia = sucursal.Provincia;
+
+            //Es mejor asi para no pasar todo el objeto
             sucursalPut.ProvinciaId = sucursal.ProvinciaId;
             sucursalPut.TipoId = sucursal.TipoId;
             

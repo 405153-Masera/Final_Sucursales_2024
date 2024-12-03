@@ -44,10 +44,35 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Final/configuraciones": {
+      "get": {
+        "tags": [
+          "Final"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Final/sucursal/{id}": {
       "put": {
         "tags": [
           "Final"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -74,18 +99,6 @@
           }
         }
       }
-    },
-    "/api/Final/configuraciones": {
-      "get": {
-        "tags": [
-          "Final"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
     }
   },
   "components": {
@@ -93,10 +106,6 @@
       "SucursalDto": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "string",
-            "format": "uuid"
-          },
           "nombre": {
             "type": "string",
             "nullable": true

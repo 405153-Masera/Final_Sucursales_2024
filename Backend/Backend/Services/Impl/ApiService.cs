@@ -41,13 +41,13 @@ namespace Backend.Services.Impl
             return response;
         }
 
-        public async Task<BaseResponse<SucursalDto>> GetSucursalAsync()
+        public async Task<BaseResponse<GetSucursalDto>> GetSucursalAsync()
         {
-            var response = new BaseResponse<SucursalDto>();
+            var response = new BaseResponse<GetSucursalDto>();
             try
             {
                 var sucursal = await _sucursalRepository.GetSucursalAsync();
-                response.Data = _mapper.Map<SucursalDto>(sucursal);
+                response.Data = _mapper.Map<GetSucursalDto>(sucursal);
                 response.Success = true;
             }
             catch (Exception)
@@ -94,7 +94,7 @@ namespace Backend.Services.Impl
             return response;
         }
 
-        public async Task<BaseResponse<SucursalDto>> PutSucursalAsync(SucursalDto sucursalDto)
+        public async Task<BaseResponse<SucursalDto>> PutSucursalAsync(Guid id, SucursalDto sucursalDto)
         {
             var response = new BaseResponse<SucursalDto>();
 
@@ -113,7 +113,7 @@ namespace Backend.Services.Impl
 
                 var sucursal = _mapper.Map<Sucursal>(sucursalDto);
 
-                sucursal = await _sucursalRepository.PutSucursal(sucursal);
+                sucursal = await _sucursalRepository.PutSucursal(id, sucursal);
                 response.Data = _mapper.Map<SucursalDto>(sucursal);
                 response.Success = true;
                 response.Message = "Sucursal actualizada correctamente";

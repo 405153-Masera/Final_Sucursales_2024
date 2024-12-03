@@ -49,10 +49,10 @@ namespace Backend.Controllers
             return Ok(response);
         }
 
-        [HttpPut("sucursal")]
-        public async Task<IActionResult> PutSucursal([FromBody] SucursalDto sucursal)
+        [HttpPut("sucursal/{id}")]
+        public async Task<IActionResult> PutSucursal([FromRoute] Guid id, [FromBody] SucursalDto sucursal)
         {
-            var response = await _apiService.PutSucursalAsync(sucursal);
+            var response = await _apiService.PutSucursalAsync(id, sucursal);
             if (!response.Success)
             {
                 return BadRequest(response);
@@ -60,4 +60,11 @@ namespace Backend.Controllers
             return Ok(response);
         }
     }
+    /*
+        [FromRoute] - Para Path Variables
+        [FromQuery] - Para Request Parameters (parámetros de consulta)
+        [FromBody] - Para datos en el cuerpo de la petición
+        [FromHeader] - Para valores en los headers
+        [FromForm] - Para datos de formularios
+     */
 }

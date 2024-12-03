@@ -10,6 +10,8 @@ namespace Backend.Mappers
         {
             CreateMap<Sucursal, SucursalDto>().ReverseMap();
             CreateMap<Configuracion, ConfiguracionDto>().ReverseMap();
+            CreateMap<Provincia, ProvinciaDto>().ReverseMap();
+            CreateMap<Sucursal, GetSucursalDto>().ReverseMap();
         }
     }
 }
